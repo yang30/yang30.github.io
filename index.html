@@ -12,14 +12,18 @@
 		console.log(str2);
 	</script>
 	<style type="text/css">
-		button{
-			position:relative;top:50%;left:50%;width:150px;height:40px;margin:-20px 0 0 -75px;
+		.maindiv{
+			position:absolute;top:50%;left:50%;width:40%;height:400px;border:1px solid red;margin:-200px 0 0 -20%;background-color:green;
+		}
+		.subdiv{
+			position:relative;top:50%;left:50%;width:250px;height:40px;margin:-20px 0 0 -125px;
 		}
 	</style>
 </head>
 <body>
-	<div style="width:40%;height:400px;border:1px solid red;">
-	<button onclick="test();">欢迎来到yang30的主页</button>
+	<div class="maindiv">
+	<div class="subdiv">欢迎来到yang30的主页<button onclick="test();">开始</button></div>
 	</div>
+	
 </body>
 </html>
