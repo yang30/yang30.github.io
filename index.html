@@ -2,10 +2,11 @@
 <html>
 <head>
 	<meta http-equiv="Content-type" content="text/html;charset=utf-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 	<script type="text/javascript">
 		var n=0;
 		function test(){
-			document.getElementById("maindiv").innerHTML="<h1 id='timer' style='text-align:center;line-height:100%;'></h1><div id='count' style='font-size:5em;text-align:center;'>0</div>";
+			document.getElementById("maindiv").innerHTML="<div id='timer' style='font-size:2rem;text-align:center;line-height:100%;'></div><div id='count' style='font-size:5rem;text-align:center;'>0</div>";
 			function f(){document.getElementById("timer").innerText=(new Date())};
 			f();
 			window.setInterval(f,1000);
@@ -16,7 +17,7 @@
 	</script>
 	<style type="text/css">
 		#maindiv{
-			position:absolute;top:25%;left:30%;width:40%;height:50%;border:1px solid red;background-color:green;
+			position:absolute;top:10%;left:20%;width:60%;height:80%;border:1px solid red;background-color:green;
 		}
 		.subdiv{
 			position:relative;top:50%;left:50%;width:250px;height:40px;margin:-20px 0 0 -125px;
